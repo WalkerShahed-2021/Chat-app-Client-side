@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-container{
+    width: 60%;
+    margin: 0 auto;
+}
+.img-design{
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+}
