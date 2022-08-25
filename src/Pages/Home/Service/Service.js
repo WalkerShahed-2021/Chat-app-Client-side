@@ -24,18 +24,21 @@ const Service = () => {
            {
             cards.map(card => 
              <div key={card.id} className="text-center mt-2">
-                 <div className="hover:card hover:card-compact hover:h-60 hover:p-2 hover:w-96 hover:bg-base-100 hover:shadow-2xl">
-                    <img className="w-[80px] ml-36" src={card.img} alt="" />
-                    <h2 className="text-xl font-bold">{card.title}</h2>
-                    <p className="text-xl font-bold">${card.price}</p>
-                    <p>{card.pragrap}</p>
+                 <div className="hover:card hover:card-compact hover:h-80 hover:w-96  hover:p-2  hover:bg-base-100 hover:shadow-2xl">
+                    <div className="hover:mt-6">
+                        <img className="w-[80px] ml-36" src={card.img} alt="" />
+                        <h2 className="text-xl font-bold">{card.title}</h2>
+                        <p className="text-xl font-bold">${card.price}</p>
+                        <p>{card.pragrap}</p>
+                    </div>
                  </div>
              </div>)
            }
-           
        </div>
-       <button className="btn btn-primary"></button>
-    </div>
+       <div className="mt-10 flex justify-center">
+          <p className="bg-gray-500 p-2 w-38 text-white">Explore more</p>
+       </div>
+</div>
   );
 };
 
