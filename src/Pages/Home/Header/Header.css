@@ -11,3 +11,9 @@
     /* justify-content: space-evenly; */
     justify-content: space-between;
 }
+
+@media (min-width: 768px) { 
+    .responsive-header{
+        display: grid;
+    }
+}

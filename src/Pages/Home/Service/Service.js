@@ -21,21 +21,23 @@ const Service = () => {
       </div>
        
        <div className="header-container flex mb-14">
-           {
-            cards.map(card => 
-             <div key={card.id} className="text-center mt-2">
-                 <div className="hover:card hover:card-compact hover:h-80 hover:w-96  hover:p-2  hover:bg-base-100 hover:shadow-2xl">
-                    <div className="hover:mt-6">
-                        <img className="w-[80px] ml-36" src={card.img} alt="" />
-                        <h2 className="text-xl font-bold">{card.title}</h2>
-                        <p className="text-xl font-bold">${card.price}</p>
-                        <p>{card.pragrap}</p>
-                    </div>
-                 </div>
-             </div>)
-           }
+          <div className="md:grid md:grid-cols-3 md:gap-14 sm:grid sm:grid-cols-2 sm:gap-14">
+            {
+              cards.map(card => 
+              <div key={card.id} className="text-center mt-2">
+                  <div className="hover:card hover:card-compact hover:h-80 hover:w-80  hover:p-2  hover:bg-base-100 hover:shadow-2xl">
+                      <div className="hover:mt-6 h-48">
+                          <img className="w-[80px] ml-36" src={card.img} alt="" />
+                          <h2 className="text-xl font-bold">{card.title}</h2>
+                          <p className="text-xl font-bold">${card.price}</p>
+                          <p>{card.pragrap}</p>
+                      </div>
+                  </div>
+              </div>)
+            }
+          </div>
        </div>
-       <div className="mt-10 flex justify-center">
+       <div className="mt-10 flex justify-center sm:mt-40">
           <p className="bg-gray-500 p-2 w-38 text-white">Explore more</p>
        </div>
 </div>

@@ -33,6 +33,13 @@ const Testimonials = () => {
         <div className="header-container">
              <div>
                <h1 className="text-2xl font-bold">Testimonials</h1>
+                 {/* <div class="flex items-center">
+                    <img src="path/to/image.jpg"/>
+                    <div>
+                      <strong>Andrew Alfred</strong>
+                      <span>Technical advisor</span>
+                    </div>
+                  </div> */}
              </div>
              <div></div>
         </div>

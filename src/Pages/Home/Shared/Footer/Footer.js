@@ -8,7 +8,7 @@ import vactor3 from '../../../../Image_Icon/Icon/Vector-3.png'
 const Footer = () => {
     return (
         <div className='h-auto py-20 bg-slate-500'>
-              <div className='header-container grid grid-cols-4 gap-4 text-white'>
+              <div className='header-container md:grid md:grid-cols-4 md:gap-4 sm:grid sm:grid-cols-1 sm:gap-4 text-white'>
                     <div className='flex'>
                         <img className='h-[30px] mx-4' src={map} alt="" />
                         <p>H#000 (0th Floor), Road #00, <br />
