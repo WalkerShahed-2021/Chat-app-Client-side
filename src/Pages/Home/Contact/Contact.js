@@ -25,7 +25,7 @@ const Contact = () => {
                     <input className="bg-[#F3F3F3] p-2 w-80 mx-10 mt-4 outline-none" placeholder="Enter Phone" {...register("phone")} />
                 </div>
                    <textarea placeholder="Your Messege" className="bg-[#F3F3F3]  h-32 p-2 w-[63%] mx-10 mt-4 outline-none" name="" id="" ></textarea>              
-              </div>
+                </div>
           <div className="mt-4 flex justify-center mb-20">
                 <input className="bg-gray-500 p-2 w-40 text-white" value="Send Messege" type="submit" />
           </div>
