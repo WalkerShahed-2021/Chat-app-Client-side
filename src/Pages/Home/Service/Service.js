@@ -25,9 +25,9 @@ const Service = () => {
             {
               cards.map(card => 
               <div key={card.id} className="text-center mt-2">
-                  <div className="hover:card hover:card-compact hover:h-80 hover:w-80  hover:p-2  hover:bg-base-100 hover:shadow-2xl">
+                  <div className="hover:card mt-14 h-38 w-70 hover:card-compact hover:h-80 hover:w-80  hover:p-2  hover:bg-base-100 hover:shadow-2xl">
                       <div className="hover:mt-6 h-48">
-                          <img className="w-[80px] ml-36" src={card.img} alt="" />
+                          <img className="w-[80px]  ml-20" src={card.img} alt="" />
                           <h2 className="text-xl font-bold">{card.title}</h2>
                           <p className="text-xl font-bold">${card.price}</p>
                           <p>{card.pragrap}</p>

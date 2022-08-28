@@ -30,25 +30,24 @@ const Testimonials = () => {
   ];
   return (
     <div className="bg-[#F3F3F3] h-96 mt-32">
-        <div className="header-container">
-             <div>
-               <h1 className="text-2xl font-bold">Testimonials</h1>
-                 {/* <div class="flex items-center">
+      <div className="header-container">
+        <div>
+          <h1 className="text-2xl font-bold">Testimonials</h1>
+          {/* <div className="flex items-center">
                     <img src="path/to/image.jpg"/>
                     <div>
                       <strong>Andrew Alfred</strong>
                       <span>Technical advisor</span>
                     </div>
                   </div> */}
-             </div>
-             <div></div>
         </div>
+        <div></div>
+      </div>
     </div>
   );
 };
 
 export default Testimonials;
-
 
 /* 
  <div className="bg-[#F3F3F3] h-[700px] mt-10">
@@ -56,14 +55,14 @@ export default Testimonials;
         <h1 className="text-2xl font-bold text-center">Testimonials</h1>
         <div className="header-container flex mx-20 p-10">
           {userReview.map((user) =>
-            <div class=" cart-desgin  bg-white rounded-xl shadow-lg space-y-2 flex">
-             <img class="block mx-auto h-20 rounded-full sm:mx-0 sm:shrink-0" src={user.img} alt=""/>
-                <div class="text-center space-y-2">
-                    <div class="space-y-0.5">
-                        <p class="text-lg text-black font-semibold">
+            <div className=" cart-desgin  bg-white rounded-xl shadow-lg space-y-2 flex">
+             <img className="block mx-auto h-20 rounded-full sm:mx-0 sm:shrink-0" src={user.img} alt=""/>
+                <div className="text-center space-y-2">
+                    <div className="space-y-0.5">
+                        <p className="text-lg text-black font-semibold">
                             {user.name}
                         </p>
-                        <p class="text-slate-500 font-medium">
+                        <p className="text-slate-500 font-medium">
                             {user.title}
                         </p>
                     </div>
